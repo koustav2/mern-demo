@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import BackButton from '../components/back';
+import BackButton from '../components/Back';
 import Spinner from './Spinner';
 
 const ShowBook = () => {
